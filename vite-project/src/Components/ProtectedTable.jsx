@@ -133,7 +133,22 @@ const ProtectedTable = () => {
           ))}
         </tbody>
       </table>
-      <button onClick={handleLogout}>Logout</button>
+      <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <button
+          onClick={handleLogout}
+          style={{
+            backgroundColor: "#dc3545",
+            color: "white",
+            padding: "10px 15px",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+            fontSize: "16px",
+          }}
+        >
+          Logout
+        </button>
+      </div>
     </div>
   );
 };
@@ -149,3 +164,7 @@ const tdStyle = {
 };
 
 export default ProtectedTable;
+
+
+
+// 6PZchrzRzQT0soAF
